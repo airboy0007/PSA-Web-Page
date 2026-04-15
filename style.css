@@ -364,6 +364,16 @@ tr:hover td {
     font-size: 1.2rem;
 }
 
+.contact-link {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.contact-link:hover {
+    color: var(--cyan);
+}
+
 .contact-form {
     display: grid;
     gap: 1.5rem;
